@@ -1,0 +1,16 @@
+body{
+   font-family: Arial; 
+   background-color: cadetblue;
+   padding: 20px;
+
+}
+h1{
+    color:black;
+
+}
+form{
+    background:white;
+    padding: 15px;
+    width: 400px;
+    border-radius: 5px;
+}
