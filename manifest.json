@@ -1,0 +1,9 @@
+{
+    "name" : "Home Expenses",
+    "short_name":"Expenses",
+    "start_url": ".",
+    "dispaly": "standalone",
+    "background_color": "#6aa7a8",
+    "theme_color" : "#2c7a7b"
+
+}
