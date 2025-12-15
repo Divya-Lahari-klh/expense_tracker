@@ -36,3 +36,12 @@ window.onload = function () {
         displayExpense();
     }
 };
+function clearAll(){
+    if(confirm("Clear all expenses for this month?")){
+        expenses=[];
+        total=0;
+        localStorage.removeItem("expenses");
+        document.getElementById("expenseList").innerHTML= "";
+        document.getElementById("totalAmount").textContent="0";
+    }
+}
